@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open + Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -60,7 +60,7 @@ body {
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00b4cc;
+  border: 2px solid #292929;
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -70,15 +70,16 @@ body {
 }
 
 .searchTerm:focus {
-  border: 3px solid #00a2b7;
+  transition: 1s;
+  border: 3px solid #292929;
 }
 
 .searchButton {
   outline: none;
   width: 40px;
   height: 36px;
-  border: 1px solid #00b4cc;
-  background: #00b4cc;
+  border: 1px solid #292929;
+  background: #292929;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
