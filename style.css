@@ -65,9 +65,10 @@ body {
 }
 
 .search {
-  width: 100%;
-  position: relative;
-  display: flex;
+  width: 40%;
+  position: fixed;
+  right: 60%;
+  top: 50%;
 }
 
 .searchTerm {
@@ -97,14 +98,6 @@ body {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
-}
-
-.wrap {
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 footer {
@@ -141,17 +134,4 @@ footer p {
   font-family: arial;
   font-size: 0.7rem;
   color: white;
-}
-
-.ads {
-  background: white;
-  height: 85%;
-  width: 200px;
-  position: absolute;
-  top: 7.5%;
-  left: 3%;
-}
-
-.ad2 {
-  left: 80%;
 }
