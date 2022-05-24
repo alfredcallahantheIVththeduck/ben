@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
+  height: 100%;
   font-family: "Open Sans", sans-serif;
   background-image: url("images/bg.png");
+  background-repeat: no-repeat;
 }
 .logo {
   width: 30%;
