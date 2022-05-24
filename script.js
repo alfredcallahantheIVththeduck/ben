@@ -8,7 +8,7 @@ $("#searchButton").click(function () {
 $("#searchTerm").keypress(function (event) {
   var keycode = (event.keyCode ? event.keyCode : event.which);
   if (keycode == '13') {
-    console.log($("#searchTerm").val())
+    var search = $("#searchTerm").val()
     if (typeof (search) == "string" && search.length > 0) {
       window.location.href = "https://www.google.com/search?q=" + search
     }
