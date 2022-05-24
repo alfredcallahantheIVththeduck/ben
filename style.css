@@ -1,12 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   outline: none;
-  height: 100%;
   font-family: "Open Sans", sans-serif;
   background-image: url("images/bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .logo {
@@ -67,7 +72,7 @@ body {
 .search {
   width: 40%;
   position: fixed;
-  right: 60%;
+  right: 30%;
   top: 50%;
 }
 
@@ -80,11 +85,6 @@ body {
   border-radius: 5px 0 0 5px;
   outline: none;
   color: gray;
-}
-
-.searchTerm:focus {
-  transition: 1s;
-  border: 3px solid #292929;
 }
 
 .searchButton {
