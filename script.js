@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 
 
-$(".searchButton").click(function () {
+$(".searchButton").click(function () { console.log($(".searchTerm").val())
   window.location.href = "https://www.google.com/search?q=" + $(".searchTerm").val()
 }
 )
