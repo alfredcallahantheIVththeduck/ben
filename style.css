@@ -5,7 +5,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background-image: url("images/bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .logo {
   width: 30%;
   position: absolute;
@@ -22,6 +24,7 @@ body {
   left: 1%;
   transform: translateY(-50%);
 }
+
 .neonText h1 {
   font-size: 60px;
   font-weight: 600;
@@ -29,10 +32,12 @@ body {
   text-shadow: 0px 0px 10px #78e0f2, 0px 0px 20px #78e0f2, 0px 0px 30px #78e0f2,
     0px 0px 40px #78e0f2, 0px 0px 50px #78e0f2;
 }
+
 .neonText h1 span:nth-child(2) {
   text-shadow: 0px 0px 10px #fc88a8, 0px 0px 20px #fc88a8, 0px 0px 30px #fc88a8,
     0px 0px 40px #fc88a8, 0px 0px 50px #fc88a8;
 }
+
 .neonText h1 span:nth-child(1) {
   animation: flash 2s infinite ease-in 0.5s;
 }
@@ -42,13 +47,16 @@ body {
     text-shadow: 0px 0px 10px #78e0f2, 0px 0px 20px #78e0f2,
       0px 0px 30px #78e0f2, 0px 0px 40px #78e0f2, 0px 0px 50px #78e0f2;
   }
+
   25% {
     text-shadow: 0px 0px 10px #78e0f2, 0px 0px 20px #78e0f2,
       0px 0px 30px #78e0f2, 0px 0px 40px #78e0f2, 0px 0px 50px #78e0f2;
   }
+
   50% {
     text-shadow: 0px 0px 10px #78e0f2;
   }
+
   100% {
     color: rgba(255, 255, 255, 0.2);
     text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.2);
@@ -104,6 +112,7 @@ footer {
   left: 0px;
   width: 100%;
 }
+
 footer ul {
   padding: 0;
   list-style: none;
@@ -125,6 +134,7 @@ footer ul li {
 footer ul li:hover {
   font-weight: bold;
 }
+
 footer p {
   text-align: center;
   font-family: arial;
@@ -140,6 +150,7 @@ footer p {
   top: 7.5%;
   left: 3%;
 }
+
 .ad2 {
   left: 80%;
 }
