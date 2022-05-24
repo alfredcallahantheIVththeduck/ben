@@ -68,6 +68,9 @@ body {
 }
 
 img {
+  position: fixed;
+  top: 0px;
+  left: 0px;
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -80,9 +83,13 @@ img {
   top: 50%;
 }
 
-.searchTerm {
+
+
+
+
+#searchTerm {
   width: 100%;
-  border: 2px solid #292929;
+  border: 1px solid #656565;
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -91,15 +98,20 @@ img {
   color: gray;
 }
 
-.searchButton {
+#searchTerm:focus {
+  border: 1px solid #008ABF;
+  transition: 0.35s ease;
+}
+
+#searchButton {
   outline: none;
+  position: relative;
+  left: -10px;
   width: 40px;
   height: 36px;
-  border: 1px solid #292929;
-  background: #292929;
+  background:transparent;
   text-align: center;
   color: #fff;
-  border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
 }
