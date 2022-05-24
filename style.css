@@ -3,15 +3,13 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
 body {
   outline: none;
   font-family: "Open Sans", sans-serif;
-  background-image: url("images/bg.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .logo {
@@ -69,10 +67,15 @@ body {
   }
 }
 
+image {
+  height: 100%;
+  width: 100%;
+}
+
 .search {
-  width: 40%;
-  position: fixed;
-  right: 30%;
+  width: 50%;
+  position: absolute;
+  right: 20%;
   top: 50%;
 }
 
