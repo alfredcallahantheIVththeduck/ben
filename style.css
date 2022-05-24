@@ -93,18 +93,20 @@ img {
   border-radius: 3px;
   outline: none;
   color: gray;
+  transition: 1s;
 }
 
 #searchTerm:focus {
-  border: 1px solid #008ABF;
-  transition: 0.35s ease;
+  border: 2px solid #008ABF;
+  transition: 1s;
 }
 
 #searchButton {
   outline: none;
-  position: fixed;
-  right: 10px;
-  width: 40px;
+  position: absolute;
+  right: 2%;
+  top: 0px;
+  width: 5%;
   height: 100%;
   background:transparent;
   text-align: center;
