@@ -9,12 +9,12 @@ $(document).ready(function () {
 
 
 
-$(".searchbuttobn").click(function () {
+$(".searchButton").click(function () {
   window.location.href = "https://www.google.com/search?q=" + $(".searchTerm").val()
 }
 )
 
-$(".searchbuttobn").keypress(function (event) {
+$(".searchTerm").keypress(function (event) {
   var keycode = (event.keyCode ? event.keyCode : event.which);
   if (keycode == '13') {
     window.location.href = "https://www.google.com/search?q=" + $(".searchTerm").val()
