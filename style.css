@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
+  outline: none;
   height: 100%;
   font-family: "Open Sans", sans-serif;
   background-image: url("images/bg.png");
